@@ -1,0 +1,28 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "猜拳",
+            "data": "pss=123"
+          },
+          {
+            "type": "message",
+            "label": "開發中",
+            "text": "作者偷懶抱歉"
+          },
+          {
+            "type": "message",
+            "label": "真的開發中",
+            "text": "作者偷懶抱歉"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.ytimg.com/vi/9zL9V7lOOQs/maxresdefault.jpg",
+        "text": "贏了可以直接通關呦 !\n輸了要玩到贏 ~~"
+      }
+    }
+]

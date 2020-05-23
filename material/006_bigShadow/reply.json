@@ -1,0 +1,27 @@
+[
+
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "現身吧 !",
+            "data": "folder=006_bigShadow_response_d"
+          },
+          {
+            "type": "uri",
+            "label": "驗智商去",
+            "uri": "https://international-iq-test.com/zh-Hant/"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/G7HcoiB.gif",
+        "title": "大黑影 :",
+        "text": "喔 ~~ 選我 !? 先抓去驗智商 。"
+      }
+    }
+    
+]
+    

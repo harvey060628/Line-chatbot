@@ -1,0 +1,28 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "進入迷宮",
+            "data": "folder=008_maze"
+          },
+          {
+            "type": "postback",
+            "label": "旁邊似乎有暗道 ?",
+            "data": "folder=008_guard"
+          },
+          {
+            "type": "uri",
+            "label": "不玩了，來去吸貓",
+            "uri": "https://line.me/R/nv/recommendOA/@368zeyal"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/7r9yUa6.jpg",
+        "text": "前方不遠處似乎有迷宮"
+      }
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "Play again",
+            "data": "pss=123"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/CGM2PTs.gif",
+        "title": "Yor are a loser !",
+        "text": "強點好嗎，你還真的相信我啊"
+      }
+    }
+]

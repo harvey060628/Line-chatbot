@@ -1,0 +1,61 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_origin",
+  "chatBarText": "地圖，使用按鍵來移動",
+  "areas": [
+    {
+      "bounds": {
+        "x": 2099,
+        "y": 160,
+        "width": 113,
+        "height": 219
+      },
+      "action": {
+        "type": "postback",
+        "text": "動作 1",
+        "data": "想撞牆 ?"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2095,
+        "y": 467,
+        "width": 122,
+        "height": 198
+      },
+      "action": {
+        "type": "message",
+        "text": "看地圖好嗎 ?"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1897,
+        "y": 345,
+        "width": 197,
+        "height": 151
+      },
+      "action": {
+        "type": "message",
+        "text": "zzzzzzzz"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2212,
+        "y": 345,
+        "width": 177,
+        "height": 156
+      },
+      "action": {
+        "type": "postback",
+        "text": "有地圖可以看，還會重生肯定是白癡",
+        "data": "map=map_r"
+      }
+    }
+  ]
+}

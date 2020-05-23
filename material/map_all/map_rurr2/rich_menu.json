@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_rurr2",
+  "chatBarText": "向曙光的方向前進吧 !",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1859,
+        "y": 63,
+        "width": 555,
+        "height": 602
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "map=map_final"
+      }
+    }
+  ]
+}

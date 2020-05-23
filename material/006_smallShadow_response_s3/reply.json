@@ -1,0 +1,37 @@
+[
+    {
+      "type": "text",
+      "text": "相逢自是有緣，\n這些送你啦 ~\n這是換裝後的你 :"
+    },
+    {
+      "type": "image",
+      "originalContentUrl": "https://i.imgur.com/XQxi6Kw.jpg",
+      "previewImageUrl": "https://i.imgur.com/XQxi6Kw.jpg",
+      "animated": false
+    },
+    {
+      "type": "text",
+      "text": "所以阿....\n\n「有時候，溝通能解決許多不必要的麻煩」"
+    },
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "繼續前行",
+            "data": "folder=007_末章_突如其來的結局"
+          },
+          {
+            "type": "postback",
+            "label": "只能前行",
+            "data": "folder=007_末章_突如其來的結局"
+          }
+        ],
+        "title": "一場緣分之後 ...",
+        "text": "你迎來了最後一場冒險。"
+      }
+    }
+]

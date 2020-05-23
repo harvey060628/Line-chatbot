@@ -1,0 +1,25 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "下一個我會更好",
+            "data": "folder=follow"
+          },
+          {
+            "type": "uri",
+            "label": "媽媽我不玩了",
+            "uri": "https://i2.kknews.cc/SIG=2km5dkj/26s10000214ps69qs0sp.jpg"
+          }
+        ],
+        "thumbnailImageUrl": "https://media.giphy.com/media/xCreLQGdaTFYc/giphy.gif",
+        "title": "很快的....你死於龍焰之下。",
+        "text": "你這廢柴"
+      }
+    }
+
+]

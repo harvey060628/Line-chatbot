@@ -1,0 +1,24 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "太棒了吧 ， 我是路痴耶 ~~",
+            "data": "map=map_origin"
+          },
+          {
+            "type": "message",
+            "label": "你好眼熟 !?",
+            "text": "認真學習就會看到我 \udbc0\udc79\n再偷偷掛台就跟OE說"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/0XRt5pM.jpg",
+        "title": "你好，我是NPC",
+        "text": "這裡有張地圖，你拿去用吧 !\n使用下方圖文選單進行移動"
+      }
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "向上爬一層",
+            "data": "stair=stair_all&stair=1"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/XuHMJj2.gif",
+        "title": "如果你現在覺得辛苦，是因為你走在上坡路 !",
+        "text": "------------------------------------------"
+      }
+    }
+]

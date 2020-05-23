@@ -1,0 +1,21 @@
+[
+
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "又要重生了...",
+            "data": "folder=follow"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/sKk5F9y.jpg",
+        "title": "毒氣使你漸漸失去了力氣....",
+        "text": "去死吧"
+      }
+    }
+    
+]

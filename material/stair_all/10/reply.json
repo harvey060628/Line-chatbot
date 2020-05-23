@@ -1,0 +1,18 @@
+[
+    {
+      "type": "text",
+      "text": "5 !",
+      "quickReply": {
+        "items": [
+          {
+            "type": "action",
+            "action": {
+              "type": "postback",
+              "label": "再爬一層",
+              "data": "stair=stair_all"
+            }
+          }
+        ]
+      }
+    }
+]

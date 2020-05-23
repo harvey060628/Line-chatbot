@@ -1,0 +1,34 @@
+[
+    {
+      "type": "text",
+      "text": "於是揹起箭袋，手拿粗木弓，\n身穿新手套裝，看起來好棒棒，\n一臉菜樣的你走進了叢林，\n開始體驗這個未知的世界。\n\n這是你 :"
+    },
+    {
+      "type": "image",
+      "originalContentUrl": "https://i.imgur.com/toVwkDB.jpg",
+      "previewImageUrl": "https://i.imgur.com/toVwkDB.jpg",
+      "animated": false
+    },
+        {
+      "type": "template",
+      "altText": "this is a confirm template",
+      "template": {
+        "type": "confirm",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "是",
+            "data": "folder=005_初章_archer2"
+          },
+          {
+            "type": "postback",
+            "label": "否",
+            "text": "你給我重生去",
+            "data": "folder=follow"
+          }
+        ],
+        "text": "要開始遊戲了嗎?"
+      }
+    }
+    
+]

@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_ruru",
+  "chatBarText": "你只能按按鈕，不要亂點",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1876,
+        "y": 42,
+        "width": 563,
+        "height": 698
+      },
+      "action": {
+        "type": "postback",
+        "text": "毒氣跑出來啦 ~~~~~",
+        "data": "folder=push_button"
+      }
+    }
+  ]
+}

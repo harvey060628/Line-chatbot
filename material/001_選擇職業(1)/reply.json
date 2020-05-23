@@ -1,0 +1,19 @@
+[    
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "先走一步是一步吧..",
+            "data": "folder=002_選擇職業(2)"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/4qs3jJe.gif",
+        "title": "咦 !?",
+        "text": "我是身在異世界嗎 ?"
+      }
+    }
+]

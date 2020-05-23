@@ -1,0 +1,60 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_rr",
+  "chatBarText": "地圖，使用按鍵來移動",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1893,
+        "y": 370,
+        "width": 210,
+        "height": 101
+      },
+      "action": {
+        "type": "message",
+        "text": "回頭 ?"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2099,
+        "y": 177,
+        "width": 96,
+        "height": 202
+      },
+      "action": {
+        "type": "message",
+        "text": "看地圖，不要讓我說第二遍 !"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2211,
+        "y": 387,
+        "width": 194,
+        "height": 75
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "folder=map_question"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2111,
+        "y": 467,
+        "width": 84,
+        "height": 181
+      },
+      "action": {
+        "type": "message",
+        "text": "撞牆頭好痛.."
+      }
+    }
+  ]
+}

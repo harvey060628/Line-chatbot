@@ -1,0 +1,24 @@
+[
+    {
+      "type": "text",
+      "text": "於是你被母龍帶回家，再也沒有出來過，屋內傳來了一些聲音 : 「%&***&$%&*&*(^&」，我想那大概是母龍的呻吟聲\n"
+    },
+    {
+      "type": "text",
+      "text": "你累壞了，只能選擇重生。",
+      "quickReply": {
+        "items": [
+          {
+            "type": "action",
+            "action": {
+              "type": "postback",
+              "label": "重生",
+              "data": "folder=follow"
+            }
+          }
+        ]
+      }
+        
+    }
+
+]

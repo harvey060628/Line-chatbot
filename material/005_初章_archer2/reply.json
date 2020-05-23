@@ -1,0 +1,26 @@
+[
+    {
+      "type": "text",
+      "text": "這才走了不過百步，\n遠方便有黑影襲來，\n而且還不只一個....\n但來到了異世界，\n我肯定是強大的存在 ! \n下一秒，你便向黑影衝了去。",
+      "quickReply": {
+        "items": [
+          {
+            "type": "action",
+            "action": {
+              "type": "postback",
+              "label": "往大黑影去",
+              "data": "folder=006_bigShadow"
+            }
+          },
+          {
+            "type": "action",
+            "action": {
+              "type": "postback",
+              "label": "往小黑影去",
+              "data": "folder=006_smallShadow"
+            }
+          }
+        ]
+      }
+    }  
+]

@@ -1,0 +1,61 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_rur",
+  "chatBarText": "地圖，使用按鍵來移動",
+  "areas": [
+    {
+      "bounds": {
+        "x": 2092,
+        "y": 158,
+        "width": 108,
+        "height": 217
+      },
+      "action": {
+        "type": "postback",
+        "text": "牆壁上好像有機關 ?",
+        "data": "map=map_ruru"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2196,
+        "y": 379,
+        "width": 196,
+        "height": 84
+      },
+      "action": {
+        "type": "postback",
+        "text": "這個房間牆壁似乎有裂縫 !?",
+        "data": "map=map_rurr"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1900,
+        "y": 375,
+        "width": 208,
+        "height": 100
+      },
+      "action": {
+        "type": "message",
+        "text": "回頭的是87"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2108,
+        "y": 475,
+        "width": 84,
+        "height": 171
+      },
+      "action": {
+        "type": "message",
+        "text": "頭破血流了"
+      }
+    }
+  ]
+}

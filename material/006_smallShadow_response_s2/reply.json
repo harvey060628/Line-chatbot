@@ -1,0 +1,30 @@
+[
+    {
+      "type": "text",
+      "text": "殊不知，牠不是一般的史萊姆，\n他的名子是——利姆路\n而一招內你死了。"
+    },
+    {
+      "type": "text",
+      "text": "作者勉勵 : 「你以為的善良，是別人並不需要的憐憫」"
+    },
+    {
+      "type": "template",
+      "altText": "this is a confirm template",
+      "template": {
+        "type": "confirm",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "Play again",
+            "data": "folder=follow"
+          },
+          {
+            "type": "uri",
+            "label": "讓我死吧",
+            "uri": "https://line.me/R/nv/recommendOA/@297cepkh"
+          }
+        ],
+        "text": "你是不是不會玩遊戲 ?"
+      }
+    }
+]

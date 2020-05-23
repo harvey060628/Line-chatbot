@@ -1,0 +1,30 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "message",
+            "label": "勿點我，點擊下方再爬一層",
+            "text": "X"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/qiTzTRe.gif",
+        "text": "喵 ~"
+      },
+      "quickReply": {
+        "items": [
+          {
+            "type": "action",
+            "action": {
+              "type": "postback",
+              "label": "再爬一層",
+              "data": "stair=stair_all&stair=2"
+            }
+          }
+        ]
+      }
+    }
+]

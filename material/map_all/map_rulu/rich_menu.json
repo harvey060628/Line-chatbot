@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_rulu",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 2325,
+        "y": 379,
+        "width": 175,
+        "height": 279
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "map=map_rul"
+      }
+    }
+  ]
+}

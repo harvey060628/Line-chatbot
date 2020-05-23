@@ -1,0 +1,25 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "心軟的一箭 !",
+            "data": "folder=006_smallShadow_response_s2"
+          },
+          {
+            "type": "postback",
+            "label": "你願意跟我一起冒險嗎?",
+            "data": "folder=006_smallShadow_response_s3"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/mhXelYa.gif",
+        "title": "有沒有~有沒有~有沒有",
+        "text": "(好熟悉的感覺...自帶音效)"
+      }
+    }
+
+]

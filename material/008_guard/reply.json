@@ -1,0 +1,30 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "與海哥對話",
+            "data": "folder=008_guard_play"
+          },
+          {
+            "type": "message",
+            "label": "嘿 ~ 海姆達爾 ~",
+            "text": "我說叫我海哥 \udbc0\udc7e!"
+          },
+          {
+            "type": "postback",
+            "label": "挑釁他",
+            "text": "你被傳送到重生點了88",
+            "data": "folder=follow"
+          }
+        ],
+        "thumbnailImageUrl": "https://cdn2.ettoday.net/images/3940/d3940506.jpg",
+        "title": "你好啊，旅行者 ",
+        "text": "我是海姆達爾，請叫我海哥 !"
+      }
+    }
+]

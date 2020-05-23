@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_rurr",
+  "chatBarText": "點擊裂縫",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1893,
+        "y": 76,
+        "width": 538,
+        "height": 555
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "map=map_rurr2"
+      }
+    }
+  ]
+}

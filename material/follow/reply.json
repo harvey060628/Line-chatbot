@@ -1,0 +1,32 @@
+[
+    {
+      "type": "image",
+      "originalContentUrl": "https://i.imgur.com/8lr5EGN.jpg",
+      "previewImageUrl": "https://i.imgur.com/8lr5EGN.jpg",
+      "animated": false
+    },
+    {
+      "type": "text",
+      "text": "美好的一天開始了，睡眼惺忪的你是否要迎接早晨的到來\udbc0\udc7d?"
+    },
+    {
+      "type": "template",
+      "altText": "this is a confirm template",
+      "template": {
+        "type": "confirm",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "睜開眼睛",
+            "data": "folder=001_選擇職業(1)"
+          },
+          {
+            "type": "message",
+            "label": "繼續睡",
+            "text": "你是豬嗎\udbc0\udc5d"
+          }
+        ],
+        "text": "該怎麼做呢?"
+      }
+    }
+]

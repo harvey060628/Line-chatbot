@@ -1,0 +1,22 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a confirm template",
+      "template": {
+        "type": "confirm",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "好吧",
+            "data": "menu=003_選擇職業(3)"
+          },
+          {
+            "type": "message",
+            "label": "不好",
+            "text": "有種你再按一次"
+          }
+        ],
+        "text": "選擇職業囉(點選下方圖文選單)!"
+      }
+    }
+]

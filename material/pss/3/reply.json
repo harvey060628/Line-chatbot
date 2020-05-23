@@ -1,0 +1,29 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "剪刀",
+        "data": "play=剪刀"
+      },
+      {
+        "type": "postback",
+        "label": "石頭",
+        "data": "play=石頭"
+      },
+      {
+        "type": "postback",
+        "label": "布",
+        "data": "play=布"
+      }
+    ],
+    "thumbnailImageUrl": "https://i2.wp.com/puxnet.net/wordpress/wp-content/uploads/2019/07/1481264419-KvX2u.jpg?resize=400,222&ssl=1",
+    "title": "出拳吧，勇者 !",
+    "text": "我等等要出布喔 !"
+  }
+}
+]

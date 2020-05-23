@@ -1,0 +1,36 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_rull",
+  "chatBarText": "播放音樂 or 返回",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1916,
+        "y": 92,
+        "width": 485,
+        "height": 469
+      },
+      "action": {
+        "type": "uri",
+        "uri": "http://17sing.tw/share_song_new/index.php?sid=53961727&channel=ch_line"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2041,
+        "y": 594,
+        "width": 285,
+        "height": 151
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "map=map_rul"
+      }
+    }
+  ]
+}

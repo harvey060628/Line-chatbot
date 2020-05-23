@@ -1,0 +1,29 @@
+[
+    {
+        "type": "flex",
+      "altText": "Flex Message",
+      "contents": {
+        "type": "bubble",
+        "direction": "ltr",
+        "hero": {
+          "type": "image",
+          "url": "https://imgur.dcard.tw/qitgE8v.jpg",
+          "size": "full",
+          "aspectRatio": "1:1",
+          "aspectMode": "fit"
+        }
+      },
+      "quickReply": {
+        "items": [
+          {
+            "type": "action",
+            "action": {
+              "type": "postback",
+              "label": "再爬一層",
+              "data": "stair=stair_all&stair=7"
+            }
+          }
+        ]
+      }
+    }
+]

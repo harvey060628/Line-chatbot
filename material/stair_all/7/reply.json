@@ -1,0 +1,29 @@
+[
+    {
+      "type": "flex",
+      "altText": "Flex Message",
+      "contents": {
+        "type": "bubble",
+        "direction": "ltr",
+        "hero": {
+          "type": "image",
+          "url": "https://imgur.dcard.tw/NAmkRpr.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "fit"
+        }
+      },
+      "quickReply": {
+        "items": [
+          {
+            "type": "action",
+            "action": {
+              "type": "postback",
+              "label": "再爬一層",
+              "data": "stair=stair_all&stair=8"
+            }
+          }
+        ]
+      }
+    }
+]

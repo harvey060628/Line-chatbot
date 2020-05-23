@@ -1,0 +1,36 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單_角色選擇",
+  "chatBarText": "點擊圖示來選擇角色",
+  "areas": [
+    {
+      "bounds": {
+        "x": 286,
+        "y": 496,
+        "width": 820,
+        "height": 951
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "folder=004_初章_archer"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1565,
+        "y": 463,
+        "width": 849,
+        "height": 1026
+      },
+      "action": {
+        "type": "message",
+        "text": "待開發"
+      }
+    }
+  ]
+}

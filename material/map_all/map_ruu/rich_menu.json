@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_ruu",
+  "chatBarText": "點某隻貓咪返回 ~~",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1804,
+        "y": 13,
+        "width": 193,
+        "height": 390
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "map=map_ru"
+      }
+    }
+  ]
+}

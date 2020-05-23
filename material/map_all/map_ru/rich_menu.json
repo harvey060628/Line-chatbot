@@ -1,0 +1,62 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_ru",
+  "chatBarText": "地圖，使用按鍵來移動",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1908,
+        "y": 377,
+        "width": 192,
+        "height": 83
+      },
+      "action": {
+        "type": "postback",
+        "text": "提示 : 左邊是作者的歌手夢\n上面自己看。",
+        "data": "map=map_rul"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2100,
+        "y": 176,
+        "width": 84,
+        "height": 201
+      },
+      "action": {
+        "type": "postback",
+        "text": "喵嗚 ~",
+        "data": "map=map_ruu"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2200,
+        "y": 385,
+        "width": 185,
+        "height": 75
+      },
+      "action": {
+        "type": "postback",
+        "text": "你吸進了毒氣，但不致命。",
+        "data": "map=map_rur"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2117,
+        "y": 460,
+        "width": 71,
+        "height": 184
+      },
+      "action": {
+        "type": "message",
+        "text": "別再回頭了"
+      }
+    }
+  ]
+}

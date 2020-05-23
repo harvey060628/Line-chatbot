@@ -1,0 +1,24 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a confirm template",
+      "template": {
+        "type": "confirm",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "是",
+            "text": "Bingo ! 來去看看秘密是什麼",
+            "data": "map=map_rrr"
+          },
+          {
+            "type": "postback",
+            "label": "否",
+            "text": "不誠實，送你回入口",
+            "data": "map=map_origin"
+          }
+        ],
+        "text": "請問老師是不是幹話很多？"
+      }
+    }
+]

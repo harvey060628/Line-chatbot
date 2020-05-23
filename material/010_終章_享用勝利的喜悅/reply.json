@@ -1,0 +1,23 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "message",
+        "label": "打開寶箱",
+        "text": "登登登登~~~"
+      },
+      {
+        "type": "postback",
+        "label": "好玩，重生再玩一次",
+        "data": "folder=follow"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/IybqUwn.gif",
+    "text": "       享受通關的喜悅 Oh Ya"
+  }
+}
+]

@@ -1,0 +1,30 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "message",
+            "label": "勿點我，點擊下方再爬一層",
+            "text": "X"
+          }
+        ],
+        "thumbnailImageUrl": "https://images2.gamme.com.tw/news2/2014/39/07/p6CVpqGakqSWrQ.gif",
+        "text": "我忍你很久了 !"
+      },
+      "quickReply": {
+        "items": [
+          {
+            "type": "action",
+            "action": {
+              "type": "postback",
+              "label": "再爬一層",
+              "data": "stair=stair_all&stair=6"
+            }
+          }
+        ]
+      }
+    }
+]

@@ -1,0 +1,24 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_final",
+  "chatBarText": "點擊 Goal 離開迷宮",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1787,
+        "y": 96,
+        "width": 637,
+        "height": 533
+      },
+      "action": {
+        "type": "postback",
+        "text": "好像有樓梯的樣子 ?",
+        "data": "folder=009_stairs"
+      }
+    }
+  ]
+}

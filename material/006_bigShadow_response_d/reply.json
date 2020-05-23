@@ -1,0 +1,24 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "奮戰 !",
+            "data": "folder=006_bigShadow_response_d2"
+          },
+          {
+            "type": "postback",
+            "label": "我想成為龍騎士",
+            "data": "folder=006_bigShadow_response_d3"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/VYElm3B.gif",
+        "title": "吼 ~~~   吼  ~~~  吼~~~",
+        "text": "在你臨死前還有什麼想說的 ?"
+      }
+    }
+]

@@ -1,0 +1,36 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_rrr",
+  "chatBarText": "看秘密 or 回起始點",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1871,
+        "y": 25,
+        "width": 369,
+        "height": 319
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://mu6.me/166557"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2026,
+        "y": 411,
+        "width": 365,
+        "height": 319
+      },
+      "action": {
+        "type": "postback",
+        "text": "",
+        "data": "map=map_r"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "map_r",
+  "chatBarText": "地圖，使用按鍵來移動",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1917,
+        "y": 379,
+        "width": 194,
+        "height": 84
+      },
+      "action": {
+        "type": "message",
+        "text": "你回路口幹嘛啦"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2099,
+        "y": 185,
+        "width": 96,
+        "height": 194
+      },
+      "action": {
+        "type": "postback",
+        "text": "似乎是空房間 ?",
+        "data": "map=map_ru"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2200,
+        "y": 379,
+        "width": 197,
+        "height": 75
+      },
+      "action": {
+        "type": "postback",
+        "text": "嘿嘿 這個祕密關於老師",
+        "data": "map=map_rr"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2103,
+        "y": 471,
+        "width": 92,
+        "height": 177
+      },
+      "action": {
+        "type": "message",
+        "text": "不會看地圖 ?"
+      }
+    }
+  ]
+}

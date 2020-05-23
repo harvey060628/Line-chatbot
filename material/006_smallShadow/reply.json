@@ -1,0 +1,24 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "看起來輕輕鬆鬆吧 !",
+            "data": "folder=006_smallShadow_response_s"
+          },
+          {
+            "type": "uri",
+            "label": "怕....",
+            "uri": "https://www.citytalk.tw/bbs/data/attachment/forum/201409/05/170623wvf446iz4d5js1gs.gif"
+          }
+        ],
+        "thumbnailImageUrl": "https://i.imgur.com/dRSNhMh.gif",
+        "title": "小黑影 :",
+        "text": "來場弱者之間的較量吧 !"
+      }
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "Play again",
+            "data": "pss=123"
+          }
+        ],
+        "thumbnailImageUrl": "https://cdn.clickme.net/gallery/7f7a12ebe6f70cd03ee2f05360ed0f84.gif",
+        "title": "平手",
+        "text": "再來一把吧"
+      }
+    }
+]

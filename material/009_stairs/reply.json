@@ -1,0 +1,23 @@
+[
+    {
+      "type": "template",
+      "altText": "this is a buttons template",
+      "template": {
+        "type": "buttons",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "開始爬吧 !",
+            "data": "folder=009_stairs2"
+          },
+          {
+            "type": "uri",
+            "label": "我膝蓋不好",
+            "uri": "https://streamable.com/z25lct"
+          }
+        ],
+        "thumbnailImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Impossible_staircase.svg",
+        "text": "在你眼前的是未知階數的樓梯"
+      }
+    }
+]
